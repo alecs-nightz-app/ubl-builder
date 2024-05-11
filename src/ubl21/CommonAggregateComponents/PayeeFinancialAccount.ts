@@ -15,7 +15,7 @@ const ParamsMap: IGenericKeyValue<ParamsMapValues> = {
 
 type AllowedParams = {
   id: string | UdtIdentifier;
-  financialInstitutioBranch?: FinancialInstitutionBranch;
+  financialInstitutionBranch?: FinancialInstitutionBranch;
 };
 
 class PayeeFinancialAccount extends GenericAggregateComponent {
