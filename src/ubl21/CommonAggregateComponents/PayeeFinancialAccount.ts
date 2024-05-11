@@ -4,7 +4,7 @@ import { FinancialInstitutionBranch } from './FinancialInstitutionBranch';
 
 const ParamsMap: IGenericKeyValue<ParamsMapValues> = {
   id: { order: 1, attributeName: 'cbc:ID', min: 0, max: 1, classRef: UdtIdentifier },
-  financialInstitutioBranch: {
+  financialInstitutionBranch: {
     order: 2,
     attributeName: 'cac:FinancialInstitutionBranch',
     min: 0,
